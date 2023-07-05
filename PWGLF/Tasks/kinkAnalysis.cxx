@@ -671,8 +671,8 @@ struct kinkAnalysis {
 
         } // try
 
-      }   // inner track loop
-    }     // outer track loop
+      } // inner track loop
+    }   // outer track loop
   }
 
   void processReco(CompleteCollisions const& collisions, CompleteTracks const& tracks, o2::aod::AmbiguousTracks const& ambiTracks, aod::BCsWithTimestamps const& bcWtmp)
@@ -838,10 +838,10 @@ struct kinkAnalysis {
 
           } // try
 
-        }   // inner loop
-      }     // has MC particle
-    }       // outer loop
-  }         // process
+        } // inner loop
+      }   // has MC particle
+    }     // outer loop
+  }       // process
 
   PROCESS_SWITCH(kinkAnalysis, processSim, "process sim information", false);
 };
